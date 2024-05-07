@@ -42,8 +42,6 @@ source .venv/bin/activate
     
 ```
 
-Run Example:
-
 ```shell
 PROXY=socks5h://cap:cap@example:1080 CAPSOLVER_API_KEY=your_key URL=https://auth0.openai.com/u/email-verification?ticket=klrCCahwgphZ3KLyldISfSW2hq0kkg# python main.py
 ```
