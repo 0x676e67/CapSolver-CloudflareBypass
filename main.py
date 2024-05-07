@@ -111,20 +111,3 @@ if __name__ == "__main__":
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Execution time: {elapsed_time} seconds")
-
-# post request
-# data = {"key1": "value1", "key2": "value2"}
-# auth = ("user", "password")
-# resp = client.post(url="https://httpbin.org/anything", data=data, auth=auth)
-# print(resp.content)
-# print(resp.cookies)
-# print(resp.headers)
-# print(resp.json())
-# print(resp.status_code)
-# print(resp.text)
-# print(resp.url)
-
-# You can also use convenience functions that use a default Client instance under the hood:
-# pri.get() | pri.head() | pri.options() | pri.delete() | pri.post | pri.patch | pri.put
-# These functions can accept the `impersonate` parameter:
-# resp = reqwest.get("https://httpbin.org/anything", impersonate="chrome_123")
