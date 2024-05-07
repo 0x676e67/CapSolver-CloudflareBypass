@@ -1,6 +1,8 @@
 
 ## Getting Started
 
+- Python
+
 ```shell
 # On macOS and Linux.
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -44,4 +46,10 @@ Run Example:
 
 ```shell
 PROXY=socks5h://cap:cap@example:1080 CAPSOLVER_API_KEY=your_key URL=https://auth0.openai.com/u/email-verification?ticket=klrCCahwgphZ3KLyldISfSW2hq0kkg# python main.py
+```
+
+- Node.js
+
+```shell
+PROXY=socks5h://cap:cap@example:1080 CAPSOLVER_API_KEY=your_key URL=https://auth0.openai.com/u/email-verification?ticket=klrCCahwgphZ3KLyldISfSW2hq0kkg# node main.js
 ```
